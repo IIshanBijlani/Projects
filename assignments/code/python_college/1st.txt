@@ -1,0 +1,6 @@
+
+ variable alocates memory location
+ variable is like a container which stores value
+ variable is a combination of alphabet underscore and number
+ we cant use reserved functions and libraries as a name of variable
+ reassign

@@ -1,0 +1,24 @@
+from flask import request
+app = Flask(__name__)
+
+@app.route('/',method=['post'])
+def index():
+    data = request.get_json()
+    print(data)
+    return str(data)
+
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
+
+
+
+
+
+
+    #header{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/download.png");
+    background-size: cover;
+    background-position: center;
+}
